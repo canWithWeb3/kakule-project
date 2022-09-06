@@ -1,0 +1,37 @@
+
+
+.form-control:focus{
+  box-shadow: none !important;
+}
+
+.login-content{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 900px;
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width:900px) {
+  .login-content{
+    width: 100% !important;
+    height: 100vh !important;
+  }
+}
+
+
+#admin-menu{
+  min-height: 100vh;
+  height: 100%;
+  width: 270px;
+  background-color: #3EB3D7;
+}
+
+.admin-dashboard{
+  min-height: 93.6vh;
+}
